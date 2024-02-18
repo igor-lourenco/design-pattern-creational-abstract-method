@@ -3,7 +3,7 @@ package abstracts.factory.halfSimple;
 import abstracts.method.halfSimple.factory.IPhone11Factory;
 import abstracts.method.halfSimple.factory.IPhoneFactory;
 import abstracts.method.halfSimple.factory.IPhoneXFactory;
-import abstracts.method.halfSimple.model.IPhoneAbstract;
+import abstracts.method.halfSimple.model.iphone.IPhoneAbstract;
 
 public class Client {
 	

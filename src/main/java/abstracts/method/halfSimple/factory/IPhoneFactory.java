@@ -1,6 +1,6 @@
 package abstracts.method.halfSimple.factory;
 
-import abstracts.method.halfSimple.model.IPhoneAbstract;
+import abstracts.method.halfSimple.model.iphone.IPhoneAbstract;
 
 public abstract class IPhoneFactory {
 

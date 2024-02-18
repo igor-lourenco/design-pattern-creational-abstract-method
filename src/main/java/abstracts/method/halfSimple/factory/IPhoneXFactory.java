@@ -1,8 +1,8 @@
 package abstracts.method.halfSimple.factory;
 
-import abstracts.method.halfSimple.model.IPhoneAbstract;
-import abstracts.method.halfSimple.model.IPhoneX;
-import abstracts.method.halfSimple.model.IPhoneXSMax;
+import abstracts.method.halfSimple.model.iphone.IPhoneAbstract;
+import abstracts.method.halfSimple.model.iphone.IPhoneX;
+import abstracts.method.halfSimple.model.iphone.IPhoneXSMax;
 
 public class IPhoneXFactory extends IPhoneFactory {
 

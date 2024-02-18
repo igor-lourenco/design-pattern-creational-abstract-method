@@ -1,4 +1,4 @@
-package abstracts.method.halfSimple.model;
+package abstracts.method.halfSimple.model.iphone;
 
 public class IPhoneXSMax extends IPhoneAbstract {
 
