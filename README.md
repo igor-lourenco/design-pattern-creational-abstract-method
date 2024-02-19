@@ -1,1 +1,1 @@
-# design-pattern-creational-abstract-method
+# Abstract method
