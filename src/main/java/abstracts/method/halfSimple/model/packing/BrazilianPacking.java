@@ -4,7 +4,7 @@ public class BrazilianPacking implements Packing {
 
 	@Override
 	public String pack() {
-		return "\t- Empacotando em Brasil.";
+		return "\t- Empacotando para Brasil.";
 	}
 
 }
