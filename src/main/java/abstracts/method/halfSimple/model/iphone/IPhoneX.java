@@ -1,6 +1,12 @@
 package abstracts.method.halfSimple.model.iphone;
 
+import abstracts.method.halfSimple.factory.abstractFactory.CountryRulesAbstractFactory;
+
 public class IPhoneX extends IPhoneAbstract {
+
+	public IPhoneX(CountryRulesAbstractFactory rules) {
+		super(rules);
+	}
 
 	@Override
 	public void getHardware() {
