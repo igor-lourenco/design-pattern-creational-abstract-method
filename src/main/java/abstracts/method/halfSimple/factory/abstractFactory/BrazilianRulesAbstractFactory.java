@@ -17,5 +17,10 @@ public class BrazilianRulesAbstractFactory implements CountryRulesAbstractFactor
 		return new BrazilianPacking();
 	}
 
-	
+	@Override
+	public String toString() {
+		return "BrazilianRulesAbstractFactory [getCertificate()=" + getCertificate() + ", getPacking()=" + getPacking()
+				+ "]";
+	}
+
 }

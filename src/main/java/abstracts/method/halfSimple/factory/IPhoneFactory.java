@@ -5,7 +5,7 @@ import abstracts.method.halfSimple.model.iphone.IPhoneAbstract;
 
 public abstract class IPhoneFactory {
 	
-	private CountryRulesAbstractFactory rules;
+	CountryRulesAbstractFactory rules;
 	
 	public IPhoneFactory(CountryRulesAbstractFactory rules) {
 		this.rules = rules;

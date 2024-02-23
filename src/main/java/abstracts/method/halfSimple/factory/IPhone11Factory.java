@@ -7,8 +7,6 @@ import abstracts.method.halfSimple.model.iphone.IPhoneAbstract;
 
 public class IPhone11Factory  extends IPhoneFactory{
 
-	private CountryRulesAbstractFactory rules;
-	
 	public IPhone11Factory(CountryRulesAbstractFactory rules) {
 		super(rules);
 	}

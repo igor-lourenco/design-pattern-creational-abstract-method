@@ -16,4 +16,11 @@ public class IPhoneX extends IPhoneAbstract {
 		System.out.println("\t- 3Gb RAM");
 		System.out.println("\t- 256Gb Memory");
 	}
+
+	@Override
+	public String toString() {
+		return "IPhoneX [rules=" + rules + "]";
+	}
+	
+	
 }

@@ -16,4 +16,11 @@ public class IPhoneXSMax extends IPhoneAbstract {
 		System.out.println("\t- 4Gb RAM");
 		System.out.println("\t- 512Gb Memory");
 	}
+
+	@Override
+	public String toString() {
+		return "IPhoneXSMax [rules=" + rules + "]";
+	}
+	
+	
 }

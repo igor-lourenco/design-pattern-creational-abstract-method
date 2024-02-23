@@ -4,10 +4,8 @@ import abstracts.method.halfSimple.factory.abstractFactory.CountryRulesAbstractF
 
 public abstract class IPhoneAbstract {
 	
-	
-	private CountryRulesAbstractFactory rules;
+	CountryRulesAbstractFactory rules;
 
-	
 	public IPhoneAbstract(CountryRulesAbstractFactory rules) {
 		this.rules = rules;
 	}

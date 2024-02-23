@@ -14,8 +14,12 @@ public class USRulesAbstractFactory implements CountryRulesAbstractFactory {
 
 	@Override
 	public Packing getPacking() {
-		// TODO Auto-generated method stub
 		return new USPacking();
+	}
+
+	@Override
+	public String toString() {
+		return "USRulesAbstractFactory [getCertificate()=" + getCertificate() + ", getPacking()=" + getPacking() + "]";
 	}
 
 }
